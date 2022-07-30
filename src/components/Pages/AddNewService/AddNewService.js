@@ -9,6 +9,18 @@ const AddNewService = () => {
         const someText = event.target.someText.value;
         const Data = {name,photoUrl,someText};
         console.log(Data);
+        fetch('http://localhost:5000/service',{
+            method:'POST',
+            headers:{
+                
+                'content-type':'application/json'
+            },
+            body:JSON.stringify(Data)
+        })
+        .then(res => res.json())
+        .then(data => {
+            alert('Success fully added data');
+        })
 
     }
     return (
