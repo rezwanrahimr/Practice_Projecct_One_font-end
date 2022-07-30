@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const SingleUser = () => {
     
@@ -25,7 +25,7 @@ const SingleUser = () => {
                                 <Card.Text>
                                     {useer.someText}
                                 </Card.Text>
-                                
+                              <Link to={`/update/${useer._id}`}><Button>Update</Button></Link>
                             </Card.Body>
                         </Card>
               </>)}

@@ -4,6 +4,7 @@ import Home from './components/Pages/Home/Home';
 import Hearder from './components/Pages/Sheard/Hearder';
 import AddNewService from './components/Pages/AddNewService/AddNewService';
 import SingleUser from './components/Pages/SingleUser/SingleUser';
+import Update from './components/Update/Update';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/addNewService' element={<AddNewService></AddNewService>}></Route>
         <Route path='/singleUser/:id' element={<SingleUser></SingleUser>}></Route>
+        <Route path='/update/:id' element={<Update></Update>}></Route>
       </Routes>
     
       
