@@ -15,11 +15,12 @@ const Hearder = () => {
               alt=""
             />
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Service</Nav.Link>
-            <Nav.Link href="#pricing">Expert</Nav.Link>
-            <Nav.Link href="#pricing" className='ms-auto'>About</Nav.Link>
-            <Nav.Link href="#pricing" className='d-flex'>Login</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/Service">Service</Nav.Link>
+            <Nav.Link href="/Expert">Expert</Nav.Link>
+            <Nav.Link href="/AddNewService">Add New Service</Nav.Link>
+            <Nav.Link href="/About" className='ms-auto'>About</Nav.Link>
+            <Nav.Link href="/Login" className='d-flex'>Login</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

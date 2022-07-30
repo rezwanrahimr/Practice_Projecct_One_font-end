@@ -1,6 +1,8 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Pages/Home/Home';
 import Hearder from './components/Pages/Sheard/Hearder';
+import AddNewService from './components/Pages/AddNewService/AddNewService';
 
 
 
@@ -8,7 +10,11 @@ function App() {
   return (
     <div className="App">
       <Hearder></Hearder>
-      <Home></Home>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/addNewService' element={<AddNewService></AddNewService>}></Route>
+      </Routes>
     
       
     </div>

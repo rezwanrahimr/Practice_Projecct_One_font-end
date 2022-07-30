@@ -14,8 +14,8 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, in?</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, id. Non vitae a officia quae voluptate suscipit eligendi! Modi, soluta.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
